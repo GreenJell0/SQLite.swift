@@ -98,7 +98,7 @@ extension Expressible {
 extension ExpressionType {
 
     public var expression: Expression<Void> {
-        Expression(template, bindings)
+        Expression(template, bindings, alias)
     }
 
     public var asc: Expressible {
